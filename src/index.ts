@@ -34,7 +34,7 @@ app.use(compression({
 
 // Middleware
 app.use(cors({
-    origin: ['http://localhost:3000', 'https://fynnq.vercel.app', 'https://www.fynnq.com', 'https://fynnq.com'],
+    origin: ['http://localhost:3000', 'https://jobquestt.vercel.app', 'https://www.jobquestt.vercel.app'],
     credentials: true,
 }));
 
